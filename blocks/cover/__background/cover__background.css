@@ -1,6 +1,5 @@
 .cover__background {
-    width: 100%;
-    position: relative;
+    max-width: 1184px;
+    position: absolute;
     opacity: 0.3;
-    padding-top: 92px;
 }

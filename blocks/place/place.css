@@ -23,13 +23,6 @@
 
 @media screen and (max-width: 320px) {
     .place {
-        grid-template-columns: repeat(2, minmax(340px, 1fr));
-        gap: 48px 28px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place {
         grid-template-columns: repeat(1, minmax(320px, 1fr));
         gap: 32px;
         grid-template-areas: "title" "url" "img" "text";
