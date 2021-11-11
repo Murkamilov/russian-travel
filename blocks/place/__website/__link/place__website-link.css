@@ -1,0 +1,10 @@
+.place__website-link {
+    margin-top: 12px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.place__website-link:hover {
+    cursor: pointer;
+}
