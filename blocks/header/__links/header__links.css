@@ -1,17 +1,5 @@
 .header__links {
-    margin: 46px 48px 0;
     text-align: right;
     position: relative;
-}
-
-@media screen and (max-width: 768px) {
-    .header__links {
-        margin: 46px 24px 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header__links {
-        margin: 30px 16px 0 0;
-    }
+    align-self: flex-end;
 }

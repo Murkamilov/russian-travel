@@ -2,19 +2,18 @@
     position: relative;
     width: 176px;
     height: 52px;
-    margin: 28px 0 0 48px;
 }
 
-@media screen and (max-width: 768px) {
-    .header__logo {
-        margin: 28px 0 0 24px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
     .header__logo {
         width: 142px;
         height: 42px;
-        margin: 16px 0 0 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
     }
 }
