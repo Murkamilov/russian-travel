@@ -15,5 +15,6 @@
 @media screen and (min-width: 768px) {
   .footer__copyright {
     margin: 0;
+    text-align: right;
   }
 }
