@@ -11,4 +11,4 @@ Git
 Адаптивность
 
 ## GitHub Pages
-[GitHub Pages](https://github.com/Murkamilov/russian-travel)
+[GitHub Pages](https://murkamilov.github.io/russian-travel/)
