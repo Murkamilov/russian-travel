@@ -1,5 +1,32 @@
 .cover__link {
     color: #fff;
     text-decoration: none;
-    display: 100%;
+}
+
+@media screen and (min-width:320px) {
+  .cover__link {
+    max-width: 320px;
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .cover__link {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .cover__link {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .cover__link {
+    max-width: 1184px;
+    min-height: 740px;
+  }
 }
