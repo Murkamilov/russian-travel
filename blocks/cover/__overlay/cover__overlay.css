@@ -3,10 +3,3 @@
   height: 100%;
   z-index: 1;
 }
-
-.cover__overlay:hover {
-  cursor: pointer;
-  background: #2A2C2F;
-  opacity: 0.8;
-  transition: 0.2s;
-}

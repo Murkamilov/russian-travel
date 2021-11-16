@@ -5,17 +5,17 @@
   grid-area: text;
 }
 
-p {
+.place__paragraph p {
   margin: 0;
 }
 
-p+p {
+.place__paragraph p:not(:first-child) {
   margin-top: 25px;
 }
 
 @media screen and (min-width: 320px) {
   .place__paragraph {
-    width: 288px;
+    max-width: 288px;
     font-size: 16px;
     margin: 0 auto;
   }
@@ -23,21 +23,20 @@ p+p {
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
-    width: 352px;
+    max-width: 352px;
     font-size: 16px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__paragraph {
-    width: 456px;
+    max-width: 456px;
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place__paragraph {
-    width: 484px;
-    font-size: 18px;
+    max-width: 484px;
   }
 }

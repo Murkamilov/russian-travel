@@ -1,20 +1,16 @@
 .footer__copyright {
-  width: 100%;
-  text-align: right;
-  margin: 92px 48px 24px 0;
+  font-size: 14px;
+  margin: 0;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width:320px) {
   .footer__copyright {
-    text-align: left;
-    font-size: 14px;
-    margin-top: 48px;
+    line-height: 14px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
   .footer__copyright {
-    margin: 0;
-    text-align: right;
+    line-height: 16px;
   }
 }

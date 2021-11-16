@@ -22,3 +22,12 @@
     margin: 0;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 76px;
+    width: 440px;
+    margin: 0;
+  }
+}

@@ -1,10 +1,15 @@
-.place__link {
-    margin-top: 12px;
-    color: #fff;
-    font-size: 18px;
-    line-height: 22px;
+.place__link
+  {
+  width: 100%;
+  margin-top: 12px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  width: fit-content;
 }
 
-.place__link:hover {
-    cursor: pointer;
+.place__link:hover
+ {
+  cursor: pointer;
+  opacity: 0.8;
 }
