@@ -1,7 +1,8 @@
 .header__links {
+  list-style: none;
+  text-decoration: none;
   margin: 0;
-  padding: 0;
-  text-align: right;
-  position: relative;
+  display: flex;
+  justify-content: flex-end;
   align-self: flex-end;
 }
