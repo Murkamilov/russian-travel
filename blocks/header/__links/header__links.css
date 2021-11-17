@@ -1,5 +1,7 @@
 .header__links {
-    text-align: right;
-    position: relative;
-    align-self: flex-end;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  position: relative;
+  align-self: flex-end;
 }

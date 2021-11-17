@@ -24,3 +24,11 @@
       margin-bottom: 32px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .lead__title {
+      margin-top: 56px;
+  }
+}
+
+

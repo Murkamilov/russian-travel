@@ -1,5 +1,4 @@
-.place__link
-  {
+.place__link {
   margin-top: 12px;
   color: #fff;
   font-size: 18px;
@@ -7,8 +6,7 @@
   width: fit-content;
 }
 
-.place__link:hover
- {
+.place__link:hover {
   cursor: pointer;
   opacity: 0.8;
 }
