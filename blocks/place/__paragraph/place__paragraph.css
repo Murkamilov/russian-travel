@@ -15,20 +15,21 @@
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
-    max-width: 352px;
+    min-width: 352px;
     font-size: 16px;
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__paragraph {
-    max-width: 456px;
+    min-width: 456px;
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place__paragraph {
-    max-width: 484px;
+    min-width: 484px;
   }
 }
